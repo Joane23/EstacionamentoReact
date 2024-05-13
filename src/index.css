@@ -1,0 +1,78 @@
+* {
+  font-family: sans-serif;
+}
+
+.container-full {
+  width: 100%;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.header > h1 {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu > ul {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #000;
+}
+
+.menu a:hover {
+  text-decoration: underline
+}
+
+.vaga p {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.vaga .vaga-titulo {
+  font-weight: bold;
+}
+
+.vaga ul {
+  list-style: none;
+}
+
+.vaga > ul {
+  padding: 0;
+}
+
+#formCadastroVaga > fieldset {
+  margin-bottom: 16px;
+}
+
+#formCadastroVaga > fieldset * {
+  display: block;
+}
+
+@media (max-width: 720px) {
+  .header {
+      flex-direction: column;
+  }
+}
